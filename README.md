@@ -10,7 +10,7 @@ Web GUI for youtube-dl with playlist support. Allows you to download videos from
 ## Run using Docker
 
 ```bash
-docker run -d -p 8081:8081 -v /path/to/downloads:/downloads --user 1001:1001 alexta69/metube
+docker run -d -p 8081:8081 -v /mnt/downloads:/downloads  alexta69/metube
 ```
 
 ## Run using docker-compose
